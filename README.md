@@ -59,6 +59,7 @@ python app.py
 1.  Open your web browser and navigate to `http://127.0.0.1:5000`.
 2.  Fill in the input fields with the required information (e.g., median income, house age).
 3.  Click the "Predict" button to see the predicted house price.
+4.  [https://ibb.co/zVKQNXGP]
 
 ## Model Development
 
