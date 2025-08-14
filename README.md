@@ -1,47 +1,58 @@
-# California House Price Prediction
+# California House Price Prediction 🚀
 
-This project is a web application that predicts house prices in California using a linear regression model. The model is trained on the California Housing dataset and deployed using a Flask web framework.
+This project is a web application that predicts house prices in California using a linear regression model. The model is trained on the **California Housing** dataset and deployed using a Flask web framework.
 
-## Features
 
-*   Predicts house prices based on input features such as median income, house age, number of rooms, and population.
-*   User-friendly web interface for easy interaction.
-*   Includes the Jupyter Notebook with the complete data analysis and model development process.
+> **Why this project?**  
+> It demonstrates the end‑to‑end workflow of a machine‑learning project—data exploration, feature engineering, model training, serialization, and deployment—wrapped in an approachable UI.
 
-## Technologies Used
+---
 
-*   **Python:** The core programming language for the project.
-*   **Flask:** A lightweight web framework for building the web application.
-*   **Scikit-learn:** For building and training the linear regression model.
-*   **Pandas:** For data manipulation and analysis.
-*   **NumPy:** For numerical operations.
-*   **Jupyter Notebook:** For interactive data analysis and model development.
+## 📌 Features
 
-## Installation and Setup
+| Feature | Description |
+|---------|-------------|
+| **Predict prices** | Input `median_income`, `house_age`, `total_rooms`, `population` → output predicted median house value. |
+| **User‑friendly UI** | Clean Flask front‑end that accepts inputs and displays results instantly. |
+| **Jupyter notebook** | `Linear Regression ML Implementation.ipynb` contains a full walkthrough of the data pipeline and model training. |
+| **Model artifacts** | The trained `LinearRegression` instance and the corresponding `StandardScaler` are shipped as `regmodel.pkl` and `scaling.pkl`. |
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/California-house-pricing.git
-    cd California-house-pricing
-    ```
+---
 
-2.  **Create and activate a virtual environment:**
-    ```bash
-    python -m venv venv
-    venv\Scripts\activate  # On Windows
-    # source venv/bin/activate  # On macOS/Linux
-    ```
+## 🛠️ Tech Stack
 
-3.  **Install the dependencies:**
-    ```bash
-    pip install -r requirement.txt
-    ```
+| Category | Library |
+|----------|---------|
+| **Language** | Python 3.x |
+| **Web Framework** | Flask |
+| **Machine Learning** | scikit‑learn |
+| **Data Manipulation** | pandas, numpy |
+| **Notebook** | Jupyter Notebook |
 
-4.  **Run the application:**
-    ```bash
-    python app.py
-    ```
-    The application will be running at `http://127.0.0.1:5000`.
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# 1️⃣  Clone the repository
+git clone https://github.com/your-username/California-house-pricing.git
+cd California-house-pricing
+
+# 2️⃣  Create a virtual environment
+python -m venv venv
+
+# 3️⃣  Activate it
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+# 4️⃣  Install dependencies
+pip install -r requirements.txt   # (typo fixed from 'requirement.txt')
+
+# 5️⃣  Start the app
+python app.py
+```
 
 ## Usage
 
