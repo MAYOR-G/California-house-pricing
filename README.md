@@ -35,7 +35,7 @@ This project is a web application that predicts house prices in California using
 
 ```bash
 # 1️⃣  Clone the repository
-git clone https://github.com/your-username/California-house-pricing.git
+git clone https://github.com/MAYOR-G/California-house-pricing.git
 cd California-house-pricing
 
 # 2️⃣  Create a virtual environment
